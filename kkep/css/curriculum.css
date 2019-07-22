@@ -1,0 +1,239 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	font-size: 12px;
+	font-family: helvetica;
+}
+
+.sizing {
+	box-sizing: border-box;
+}
+
+
+/*练课程头部开始*/
+
+.header {
+	width: 100%;
+	height: 0.83666rem;
+	padding-top: 15px;
+}
+
+.header li {
+	float: left;
+}
+
+.yundong {
+	font-size: 18px;
+	margin-right: 6.2rem;
+	margin-left: 0.7rem;
+}
+
+.header img {
+	width: 0.6rem;
+	height: 0.6rem;
+	padding-right: 15px;
+}
+
+.daohang {
+	width: 100%;
+	height: 1.03666rem;
+	border-bottom: 5px solid whitesmoke;
+	display: flex;
+}
+
+.daohang a {
+	flex: 1;
+	text-align: center;
+	box-sizing: border-box;
+	display: block;
+	color: darkgray;
+	font-size: 13px;
+	padding-top: 10px;
+}
+
+.daohang .kc {
+	color: black;
+}
+
+.daohang p {
+	font-size: 0.35667rem;
+}
+
+
+/*练课程头部结束*/
+
+
+/**************************************************/
+
+
+/*练课程内容开始*/
+
+#wrapper {
+	width: 10rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 2.37333333rem;
+	bottom: 1.58666667rem;
+	z-index: 1;
+	overflow: auto;
+	margin: 0 auto;
+	background-color: whitesmoke;
+}
+
+#wrapper #scroller {
+	z-index: 1;
+	padding: 0;
+	position: absolute;
+}
+
+.var {
+	width: 9.95587rem;
+	height: 4.6rem;
+	border: 1px solid white;
+	background-color: white;
+	font-size: 0.33333rem;
+}
+
+.canjia {
+	color: black;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.tianjia {
+	color: #777;
+	margin-top: 0.8rem;
+	text-align: center;
+}
+
+.faxiang {
+	width: 6.5rem;
+	height: 0.8rem;
+	border-radius: 20px;
+	background-color: mediumseagreen;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 0.7rem;
+	padding-top: 0.2rem;
+	font-size: 0.43333rem;
+}
+
+.faxiang a {
+	color: white;
+}
+
+.var2 {
+	width: 9.98587rem;
+	height: 8.3rem;
+	background-color: white;
+	margin-top: 0.2rem;
+	padding-top: 0.5333rem;
+	margin-bottom: 0.5rem;
+}
+
+.xuanze {
+	color: black;
+	margin-left: 0.5rem;
+}
+
+.huan {
+	color: #777;
+	float: right;
+	margin-right: 0.5rem;
+}
+
+.var2 img {
+	padding-top: 0.5333rem;
+	width: 9rem;
+}
+
+.var2 .tu1 {
+	text-align: center;
+}
+
+.dibu {
+	text-align: center;
+	margin-top: 0.5rem;
+	color: lightgray;
+	margin-bottom: 0.5rem;
+}
+
+
+/*练课程内容结束*/
+
+
+/**************************************************/
+
+
+/*练课程底部开始*/
+
+#footer {
+	width: 100%;
+	height: 1.30667rem;
+	border-top: 1px solid darkgray;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	padding: 50;
+	display: flex;
+	padding-bottom: 10px;
+}
+
+#footer a {
+	flex: 1;
+	text-align: center;
+	box-sizing: border-box;
+	display: block;
+	color: darkgray;
+}
+
+#footer a span {
+	display: block;
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0.1333rem auto 0.04rem;
+}
+
+#footer p {
+	font-size: 0.35667rem;
+}
+
+#footer a.community span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_community_filled_dark_gray.png);
+}
+
+#footer a.search span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_follow_filled_normal.png);
+}
+
+#footer a.sports span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_sports_filled_focus.png);
+}
+
+#footer a.plan span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_suit_tab_filled_gray.png);
+}
+
+#footer a.my span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_user_filled_normal.png);
+}
+
+
+/*练课程底部结束

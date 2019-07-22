@@ -1,0 +1,12 @@
+//导航
+curriculum  //练课程
+movement   //练动作
+run        //跑步
+noopsyche  //智能硬件
+ 
+//底部
+community   //社区
+search     //搜索
+sports     //运动
+plan      //计划
+my        //我

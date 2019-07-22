@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: helvetica;
+}
+
+.sizing {
+	box-sizing: border-box;
+}
+
+
+/*智能硬件头部开始*/
+
+.header {
+	width: 100%;
+	height: 0.83666rem;
+	padding-top: 15px;
+}
+
+.header li {
+	float: left;
+}
+
+.yundong {
+	font-size: 18px;
+	margin-right: 6.2rem;
+	margin-left: 0.7rem;
+}
+
+.header img {
+	width: 0.6rem;
+	height: 0.6rem;
+	padding-right: 15px;
+}
+
+.daohang {
+	width: 100%;
+	height: 1.03666rem;
+	border-bottom: 5px solid whitesmoke;
+	display: flex;
+}
+
+.daohang a {
+	flex: 1;
+	text-align: center;
+	box-sizing: border-box;
+	display: block;
+	color: darkgray;
+	font-size: 13px;
+	padding-top: 10px;
+}
+
+.daohang .yj {
+	color: black;
+}
+
+.daohang p {
+	font-size: 0.35667rem;
+}
+
+
+/*智能硬件头部结束*/
+
+
+/**************************************************/
+
+
+/*智能硬件内容开始*/
+
+#wrapper {
+	width: 10rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 2.37333333rem;
+	bottom: 1.58666667rem;
+	z-index: 1;
+	overflow: auto;
+	margin: 0 auto;
+	background-color: whitesmoke;
+}
+
+#wrapper #scroller {
+	z-index: 1;
+	padding: 0;
+	position: absolute;
+}
+
+.daimo1 {
+	width: 9.2rem;
+	height: 10.333rem;
+	border-radius: 5px;
+	border: 1px solid white;
+	background-color: white;
+	text-align: center;
+	margin-left: 0.35333rem;
+	margin-top: 0.1003rem;
+	margin-bottom: 0.2rem;
+}
+
+.weis {
+	color: #999999;
+	padding-top: 0.5rem;
+}
+
+.huans {
+	color: black;
+	font-size: 17px;
+	padding-top: 0.1rem;
+}
+
+.daimo1 img {
+	width: 6.6333rem;
+	height: 6.6333rem;
+	border: 1px solid white;
+}
+
+.daimo1 li {
+	float: left;
+	width: 0.133rem;
+	height: 0.133rem;
+	border: 1px solid lightgray;
+	border-radius: 50%;
+	position: relative;
+	left: 4.2rem;
+	top: -0.3rem;
+	margin-right: 0.2rem;
+}
+
+.daimo1 .yy {
+	background: mediumseagreen;
+}
+
+.daimo1 .bangding {
+	margin-top: 0.2rem;
+	width: 2.333rem;
+	height: 0.6233rem;
+	border-radius: 20px;
+	border: 1px solid mediumseagreen;
+	background-color: mediumseagreen;
+	text-align: center;
+	padding-top: 0.1643rem;
+	color: white;
+	position: relative;
+	right: -1.6333rem;
+}
+
+.daimo1 .liaojie {
+	margin-top: 0.2rem;
+	width: 2.333rem;
+	height: 0.6233rem;
+	border-radius: 20px;
+	border: 1px solid mediumseagreen;
+	text-align: center;
+	padding-top: 0.1643rem;
+	color: mediumseagreen;
+	position: relative;
+	top: -1rem;
+	right: -5.3rem;
+}
+
+.daimo4 {
+	margin-bottom: 0.8rem;
+	margin-bottom: 0.5rem;
+}
+
+.dibu {
+	text-align: center;
+	color: lightgray;
+	margin-bottom: 0.5rem;
+}
+
+
+/*智能硬件内容结束*/
+
+
+/**************************************************/
+
+
+/*智能硬件底部开始*/
+
+#footer {
+	width: 100%;
+	height: 1.30667rem;
+	border-top: 1px solid darkgray;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	padding: 50;
+	display: flex;
+	padding-bottom: 10px;
+}
+
+#footer a {
+	flex: 1;
+	text-align: center;
+	box-sizing: border-box;
+	display: block;
+	color: darkgray;
+}
+
+#footer a span {
+	display: block;
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0.1333rem auto 0.04rem;
+}
+
+#footer p {
+	font-size: 0.35667rem;
+}
+
+#footer a.community span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_community_filled_dark_gray.png);
+}
+
+#footer a.search span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_follow_filled_normal.png);
+}
+
+#footer a.sports span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_sports_filled_focus.png);
+}
+
+#footer a.plan span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_suit_tab_filled_gray.png);
+}
+
+#footer a.my span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_user_filled_normal.png);
+}
+
+
+/*智能硬件底部结束

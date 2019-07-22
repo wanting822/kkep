@@ -1,0 +1,533 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: helvetica;
+}
+
+.sizing {
+	box-sizing: border-box;
+}
+
+
+/*跑步头部开始*/
+
+.header {
+	width: 100%;
+	height: 0.83666rem;
+	padding-top: 15px;
+}
+
+.header li {
+	float: left;
+}
+
+.yundong {
+	font-size: 18px;
+	margin-right: 6.2rem;
+	margin-left: 0.7rem;
+}
+
+.header img {
+	width: 0.6rem;
+	height: 0.6rem;
+	padding-right: 15px;
+}
+
+.daohang {
+	width: 100%;
+	height: 1.03666rem;
+	border-bottom: 5px solid whitesmoke;
+	display: flex;
+}
+
+.daohang a {
+	flex: 1;
+	text-align: center;
+	box-sizing: border-box;
+	display: block;
+	color: darkgray;
+	font-size: 13px;
+	padding-top: 10px;
+}
+
+.daohang .pb {
+	color: black;
+}
+
+.daohang p {
+	font-size: 0.35667rem;
+}
+
+
+/*跑步头部结束*/
+
+
+/**************************************************/
+
+
+/*跑步内容开始*/
+
+#wrapper {
+	width: 10rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 2.37333333rem;
+	bottom: 1.58666667rem;
+	z-index: 1;
+	overflow: auto;
+	margin: 0 auto;
+	background-color: whitesmoke;
+}
+
+#wrapper #scroller {
+	z-index: 1;
+	padding: 0;
+	position: absolute;
+}
+
+.box1 {
+	width: 9.93333rem;
+	height: 4.6rem;
+	border: 1px solid white;
+	background: white;
+	padding-top: 0.1rem;
+}
+
+.box1 .tu3 {
+	width: 7rem;
+	height: 3rem;
+	margin: 0 auto;
+}
+
+.box1 li {
+	float: left;
+	position: relative;
+	top: 0.8rem;
+	left: 1.2rem;
+	margin-left: 0.5rem;
+	margin-right: 0.3rem;
+	font-size: 0.37533rem;
+	color: lightslategray;
+}
+
+.box1 li .ren {
+	color: mediumseagreen;
+}
+
+.var {
+	width: 9.95587rem;
+	height: 4.6rem;
+	border: 1px solid white;
+	background-color: white;
+	font-size: 0.33333rem;
+	margin-top: 0.1333rem;
+}
+
+.canjia {
+	color: black;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.tianjia {
+	color: #777;
+	margin-top: 0.8rem;
+	text-align: center;
+}
+
+.faxiang {
+	width: 6.5rem;
+	height: 0.8rem;
+	border-radius: 20px;
+	background-color: mediumseagreen;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 0.7rem;
+	padding-top: 0.2rem;
+	font-size: 0.43333rem;
+}
+
+.faxiang a {
+	color: white;
+}
+
+.var3 {
+	width: 9.95587rem;
+	height: 4.1rem;
+	border: 1px solid white;
+	background-color: white;
+	font-size: 0.33333rem;
+	padding-top: 0.333rem;
+	margin-top: 0.2rem;
+}
+
+.var3 .ku {
+	color: black;
+	padding-left: 0.5rem;
+	font-size: 13px;
+}
+
+.var3 .tu2 {
+	width: 0.7rem;
+	height: 0.1rem;
+	float: right;
+	padding-right: 0.3rem;
+	position: relative;
+	top: -0.2rem;
+}
+
+.var3 li {
+	float: left;
+}
+
+.var3 .gl3 {
+	width: 5.6333rem;
+	height: 3rem;
+	margin-top: 0.3rem;
+	margin-left: 0.5rem;
+}
+
+.var3 .gl5 {
+	width: 3.5833rem;
+	height: 3rem;
+	margin-top: 0.3rem;
+	margin-left: 0.2rem;
+}
+
+.var5 {
+	width: 9.95587rem;
+	height: 5rem;
+	border: 1px solid white;
+	background-color: white;
+	font-size: 0.33333rem;
+	padding-top: 0.333rem;
+	margin-top: 0.2rem;
+}
+
+.var5 .ku {
+	color: black;
+	padding-left: 0.5rem;
+	font-size: 13px;
+}
+
+.var5 .tu2 {
+	width: 0.7rem;
+	height: 0.1rem;
+	float: right;
+	padding-right: 0.3rem;
+	position: relative;
+	top: -0.2rem;
+}
+
+.var5 li {
+	float: left;
+}
+
+.var5 .gl3 {
+	width: 5.6333rem;
+	height: 3rem;
+	margin-top: 0.3rem;
+	margin-left: 0.5rem;
+}
+
+.var5 .gl5 {
+	width: 3.5833rem;
+	height: 3rem;
+	margin-top: 0.3rem;
+	margin-left: 0.2rem;
+}
+
+.var5 .shang {
+	color: black;
+	font-size: 0.36333rem;
+}
+
+.var5 .xiang {
+	color: lightgray;
+	font-size: 0.03333rem;
+}
+
+.var5 p {
+	text-align: center;
+}
+
+.var6 {
+	width: 9.95587rem;
+	height: 11.7333rem;
+	border: 1px solid white;
+	background-color: white;
+	font-size: 0.33333rem;
+	padding-top: 0.333rem;
+	margin-top: 0.2rem;
+}
+
+.var6 .ku {
+	color: black;
+	padding-left: 0.5rem;
+	font-size: 13px;
+}
+
+.var6 img {
+	width: 9.1533rem;
+	margin-top: 0.3rem;
+	margin-left: 0.4rem;
+}
+
+.var7 {
+	width: 9.95587rem;
+	height: 4rem;
+	border: 1px solid white;
+	background-color: white;
+	font-size: 0.33333rem;
+	padding-top: 0.333rem;
+	margin-top: 0.2rem;
+}
+
+.var7 .ku {
+	color: black;
+	padding-left: 0.5rem;
+	font-size: 13px;
+}
+
+.var7 ul {
+	width: 9.8999rem;
+	height: 1.6rem;
+	border: 1px solid lightgray;
+	border-left: none;
+	border-right: none;
+	margin-top: 0.4rem;
+}
+
+.var7 li {
+	float: left;
+	margin-top: 0.45333rem;
+	margin-left: 0.5rem;
+	margin-right: 0.3rem;
+}
+
+.var7 .gang {
+	color: mediumseagreen;
+}
+
+
+/*.var7 .tu4{
+	width: 0.86666rem;
+	height: 0.866666rem;
+	border: 2px solid mediumseagreen;
+	border-radius: 50px;
+}*/
+
+.var7 img {
+	width: 0.86666rem;
+	height: 0.86666rem;
+	border: 2px solid mediumseagreen;
+	border-radius: 50px;
+	position: relative;
+	top: -0.2rem;
+}
+
+.var7 .ling {
+	color: mediumseagreen;
+	margin-right: 0.23333rem;
+}
+
+.var7 .ck {
+	margin-top: 0.5rem;
+	text-align: center;
+}
+
+.var8 {
+	width: 9.95587rem;
+	height: 11rem;
+	border: 1px solid white;
+	background-color: white;
+	font-size: 0.33333rem;
+	padding-top: 0.333rem;
+	margin-top: 0.2rem;
+}
+
+.var8 .ku {
+	color: black;
+	padding-left: 0.5rem;
+	font-size: 13px;
+}
+
+.var8 .xfd1 {
+	width: 9.95587rem;
+	height: 3.5333rem;
+	border-bottom: 1px solid lightgray;
+}
+
+.var8 .xfd2 {
+	width: 9.95587rem;
+	height: 3.5333rem;
+	border-bottom: 1px solid lightgray;
+}
+
+.var8 li {
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.4rem;
+}
+
+.var8 img {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.var8 p {
+	margin-bottom: 0.2rem;
+	position: relative;
+	top: 0.6rem;
+}
+
+.var8 .ztys {
+	color: gray;
+}
+
+.var9 {
+	width: 9.95587rem;
+	height: 14.5rem;
+	border: 1px solid white;
+	background-color: white;
+	font-size: 0.33333rem;
+	padding-top: 0.333rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.5rem;
+}
+
+.var9 .ku {
+	color: black;
+	padding-left: 0.5rem;
+	font-size: 13px;
+}
+
+.var9 .xfd1 {
+	width: 9.95587rem;
+	height: 3.5333rem;
+	border-bottom: 1px solid lightgray;
+}
+
+.var9 .xfd2 {
+	width: 9.95587rem;
+	height: 3.5333rem;
+	border-bottom: 1px solid lightgray;
+}
+
+.var9 .xfd3 {
+	width: 9.95587rem;
+	height: 3.5333rem;
+	border-bottom: 1px solid lightgray;
+}
+
+.var9 .xfd4 {
+	width: 9.95587rem;
+	height: 3.5333rem;
+}
+
+.var9 li {
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.4rem;
+}
+
+.var9 img {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.var9 p {
+	margin-bottom: 0.2rem;
+	position: relative;
+	top: 0.6rem;
+}
+
+.var9 .ztys {
+	color: gray;
+}
+
+.dibu {
+	text-align: center;
+	color: lightgray;
+	margin-bottom: 0.5rem;
+}
+
+
+/*跑步内容结束*/
+
+
+/**************************************************/
+
+
+/*跑步底部开始*/
+
+#footer {
+	width: 100%;
+	height: 1.30667rem;
+	border-top: 1px solid darkgray;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	padding: 50;
+	display: flex;
+	padding-bottom: 10px;
+}
+
+#footer a {
+	flex: 1;
+	text-align: center;
+	box-sizing: border-box;
+	display: block;
+	color: darkgray;
+}
+
+#footer a span {
+	display: block;
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0.1333rem auto 0.04rem;
+}
+
+#footer p {
+	font-size: 0.35667rem;
+}
+
+#footer a.community span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_community_filled_dark_gray.png);
+}
+
+#footer a.search span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_follow_filled_normal.png);
+}
+
+#footer a.sports span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_sports_filled_focus.png);
+}
+
+#footer a.plan span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_suit_tab_filled_gray.png);
+}
+
+#footer a.my span {
+	width: 0.72rem;
+	height: 0.64rem;
+	background-image: url(../img/icon_user_filled_normal.png);
+}
+
+
+/*跑步底部结束
